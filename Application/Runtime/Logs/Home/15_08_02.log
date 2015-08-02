@@ -1,0 +1,54 @@
+[ 2015-08-02T13:45:16+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/css/show.css
+ERR: 无法加载控制器:Css
+
+[ 2015-08-02T13:45:17+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:45:17+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:48:24+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:48:24+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/css/show.css
+ERR: 无法加载控制器:Css
+
+[ 2015-08-02T13:48:25+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:48:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:48:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/css/show.css
+ERR: 无法加载控制器:Css
+
+[ 2015-08-02T13:48:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:48:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:49:11+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:50:07+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:50:35+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:53:12+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T13:54:36+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/show.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T14:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/css/style.css
+ERR: 无法加载控制器:Css
+
+[ 2015-08-02T14:07:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2015-08-02T14:07:05+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/lrscroll.js
+ERR: 无法加载控制器:Js
+

@@ -7,7 +7,31 @@ class SettingController extends Controller {
 
       $model = M("setting");
       $data = $model->select();
-      $this->assign('data',$data);
+      //为动态添加的变量分组
+      /**
+      *基本设置 0  basics
+      *附件设置 1  annex
+      *性能设置 2  performance
+      */
+      $vartype = array(
+        0=>'basics',
+        1=>'annex',
+        2=>'performance'
+      );
+
+      foreach ($data as $k => $value) {
+       // $data[$k]['vartype'] = $vartype[$value['vartype']];
+       // $dataArr[] = $vartype[$value['vargroup']];
+        //dump($vartype[$value['vargroup']]);
+        if($value['vargroup'] == 0){
+            $dataArr['1'][] = $value;
+        }elseif($value['vargroup'] == 1){
+            $dataArr['2'][] = $value;
+        }elseif ($value['vargroup'] == 2) {
+            $dataArr['3'][] = $value;
+        }
+      }
+      $this->assign('data',$dataArr);
       $this->display();
     }
     /**
@@ -28,9 +52,13 @@ class SettingController extends Controller {
     */
     public function add()
     {
-    	$model = M("setting");
-
-    	$data['varname'] = 111;
-    	$model->add($data);
+    	$model = D("setting");
+        $_POST['varname'] = 'cfg_'.$_POST['varname'];
+        if($model->create()){
+            $model->add();
+            $this->success('添加成功');
+        }else{
+            $this->error($model->getError());
+        }
     }
 }

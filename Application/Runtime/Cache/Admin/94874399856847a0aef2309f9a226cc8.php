@@ -1551,12 +1551,84 @@
 							<ul class="nav nav-tabs">
 
 								<li class="active"><a href="#tab_1" data-toggle="tab">基础信息</a></li>
-								<li><a href="#tab_2" data-toggle="tab">基础信息</a></li>
+								<li><a href="#tab_2" data-toggle="tab">附件设置</a></li>
+								<li><a href="#tab_3" data-toggle="tab">性能设置</a></li>
+								<li><a href="#tab_4" data-toggle="tab">水印设置</a></li>
+								<li><a href="#tab_5" data-toggle="tab">增加变量</a></li>
 							</ul>
 
 							<div class="tab-content">
+								
+								<?php if(is_array($data)): foreach($data as $k=>$vo): if($vo["vargroup"] == 0): ?><div class="tab-pane <?php echo ($k == 1 ? 'active' : ''); ?>"  id="tab_<?php echo ($k); ?>">
 
-								<div class="tab-pane active"  id="tab_1">
+									<div class="portlet box blue">
+
+										<div class="portlet-title">
+
+											<div class="caption"><i class="icon-reorder"></i></div>
+
+											<div class="tools">
+
+												<a href="javascript:;" class="collapse"></a>
+
+												<a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+												<a href="javascript:;" class="reload"></a>
+
+												<a href="javascript:;" class="remove"></a>
+
+											</div>
+
+										</div>
+
+										<div class="portlet-body form">
+
+											<!-- BEGIN FORM-->
+
+											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
+											<?php if(is_array($vo)): foreach($vo as $key=>$vvo): ?><div class="control-group">
+
+															<label class="control-label"><?php echo ($vvo['varinfo']); ?></label>
+
+															<div class="controls">
+															<!-- 判断表单输出类型  -->
+															<?php echo ($vvo['vartype']); ?>
+															<?php if(($vvo['vartype'] == '0')): ?><input value="<?php echo ($vvo['varvalue']); ?>" name="<?php echo ($vvo['varname']); ?>" type="text" placeholder="small" class="m-wrap span12" />
+
+																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span>
+															<elseif condition="($vvo['vartype'] eq '1')">
+															<label class="radio">
+
+															<input type="radio" name="vartype" value="0" />
+															启用
+															</label>
+															<label class="radio">
+															<input type="radio" name="vartype" value="1" checked />
+															关闭
+															</label> 
+															<?php else: ?>
+															dsfa<?php endif; ?>
+														</div>
+														</div><?php endforeach; endif; ?>
+
+												<div class="form-actions">
+
+													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
+
+													<button type="button" class="btn">Cancel</button>
+
+												</div>
+
+											</form>
+
+											<!-- END FORM-->  
+
+										</div>
+
+									</div>
+									
+								</div><?php endif; endforeach; endif; ?>
+								<div class="tab-pane"  id="tab_4">
 
 									<div class="portlet box blue">
 
@@ -1584,16 +1656,36 @@
 
 											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
 												
-												<?php if(is_array($data)): foreach($data as $key=>$vo): ?><div class="control-group">
+												
+												<div class="control-group">
 
-														<label class="control-label"><?php echo ($vo['varinfo']); ?></label>
+													<label class="control-label">是否开启水印</label>
 
+													<div class="controls">
+
+														<label class="radio">
+
+														<input type="radio" name="vartype" value="0" />
+														启用
+														</label>
+														<label class="radio">
+														<input type="radio" name="vartype" value="1" checked />
+														关闭
+														</label> 
+													</div>
+												</div>
+
+
+												<div class="control-group">
+														<label class="control-label">参数说明</label>
 														<div class="controls">
-															<input value="<?php echo ($vo['varvalue']); ?>" name="<?php echo ($vo['varname']); ?>" type="text" placeholder="small" class="m-wrap span12" />
-
-															<span class="help-inline">This is inline help</span>
+															<span class="help-inline">宽</span>
+															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
+															<span class="help-inline">高</span>
+															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
+															
 														</div>
-													</div><?php endforeach; endif; ?>
+												</div>
 
 												<div class="form-actions">
 
@@ -1612,14 +1704,13 @@
 									</div>
 
 								</div>
-
-								<div class="tab-pane"  id="tab_2">
+								<div class="tab-pane"  id="tab_5">
 
 									<div class="portlet box blue">
 
 										<div class="portlet-title">
 
-											<div class="caption"><i class="icon-reorder"></i>Form Sample2</div>
+											<div class="caption"><i class="icon-reorder"></i></div>
 
 											<div class="tools">
 
@@ -1639,317 +1730,76 @@
 
 											<!-- BEGIN FORM-->
 
-											<form action="#" class="form-horizontal form-row-seperated">
+											<form method="post" action="<?php echo U("setting/add");?>" class="form-horizontal form-row-seperated">
+												
+												
+													<div class="control-group">
 
-												<div class="control-group">
-
-													<label class="control-label">First Name</label>
-
-													<div class="controls">
-
-														<input type="text" placeholder="small" class="m-wrap span12" />
-
-														<span class="help-inline">This is inline help</span>
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label">Last Name</label>
-
-													<div class="controls">
-
-														<input type="text" placeholder="medium" class="m-wrap span12" />
-
-														<span class="help-inline">This is inline help</span>
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label">Gender</label>
-
-													<div class="controls">
-
-														<select  class="m-wrap span12">
-
-															<option value="">Male</option>
-
-															<option value="">Female</option>
-
-														</select>
-
-														<span class="help-block">Select your gender.</span>
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >Date of Birth</label>
-
-													<div class="controls">
-
-														<input type="text" class="m-wrap span12"  placeholder="dd/mm/yyyy">
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >Category</label>
-
-													<div class="controls">
-
-														<div class="select2-wrapper">
-
-															<select class="span12 select2_category">
-
-																<option value=""></option>
-
-																<option value="Category 1">Category 1</option>
-
-																<option value="Category 2">Category 2</option>
-
-																<option value="Category 3">Category 5</option>
-
-																<option value="Category 4">Category 4</option>
-
-															</select>
-
+														<label class="control-label">变量名称</label>
+														<div class="controls">
+															<input value="" name="varname" type="text" placeholder="varname" class="m-wrap span12" />
+															<span class="help-inline"></span>
 														</div>
-
 													</div>
+													<div class="control-group">
+														<label class="control-label">参数说明</label>
+														<div class="controls">
+															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap span12" />
+															<span class="help-inline"></span>
+														</div>
+													</div>
+													<div class="control-group">
+														<label class="control-label">变量值</label>
+														<div class="controls">
+															<input value="" name="varvalue" type="text" placeholder="varvalue" class="m-wrap span12" />
+															<span class="help-inline"></span>
+														</div>
+													</div>
+													<div class="control-group">
 
+													<label class="control-label">变量类型</label>
+
+													<div class="controls">
+
+														<label class="radio">
+
+														<input type="radio" name="vartype" value="0" />
+														文本
+														</label>
+														<label class="radio">
+														<input type="radio" name="vartype" value="1" checked />
+														数字
+														</label>  
+														<label class="radio">
+														<input type="radio" name="vartype" value="2" />
+														布尔(Y/N)
+														</label>
+														<label class="radio">
+														<input type="radio" name="vartype" value="3" />
+														多行文本
+														</label>  
+													</div>
 												</div>
 
 												<div class="control-group">
 
-													<label class="control-label">Multi-Value Select</label>
+													<label class="control-label">所属组</label>
 
 													<div class="controls">
 
-														<select class="span12 select2_sample1" multiple>
+														<select name="vargroup" class="small m-wrap" tabindex="1">
 
-															<option value=""></option>
+															<option value="0">基本设置</option>
 
-															<optgroup label="NFC EAST">
+															<option value="1">附件设置</option>
 
-																<option>Dallas Cowboys</option>
-
-																<option>New York Giants</option>
-
-																<option>Philadelphia Eagles</option>
-
-																<option>Washington Redskins</option>
-
-															</optgroup>
-
-															<optgroup label="NFC NORTH">
-
-																<option>Chicago Bears</option>
-
-																<option>Detroit Lions</option>
-
-																<option>Green Bay Packers</option>
-
-																<option>Minnesota Vikings</option>
-
-															</optgroup>
-
-															<optgroup label="NFC SOUTH">
-
-																<option>Atlanta Falcons</option>
-
-																<option>Carolina Panthers</option>
-
-																<option>New Orleans Saints</option>
-
-																<option>Tampa Bay Buccaneers</option>
-
-															</optgroup>
-
-															<optgroup label="NFC WEST">
-
-																<option>Arizona Cardinals</option>
-
-																<option>St. Louis Rams</option>
-
-																<option>San Francisco 49ers</option>
-
-																<option>Seattle Seahawks</option>
-
-															</optgroup>
-
-															<optgroup label="AFC EAST">
-
-																<option>Buffalo Bills</option>
-
-																<option>Miami Dolphins</option>
-
-																<option>New England Patriots</option>
-
-																<option>New York Jets</option>
-
-															</optgroup>
-
-															<optgroup label="AFC NORTH">
-
-																<option>Baltimore Ravens</option>
-
-																<option>Cincinnati Bengals</option>
-
-																<option>Cleveland Browns</option>
-
-																<option>Pittsburgh Steelers</option>
-
-															</optgroup>
-
-															<optgroup label="AFC SOUTH">
-
-																<option>Houston Texans</option>
-
-																<option>Indianapolis Colts</option>
-
-																<option>Jacksonville Jaguars</option>
-
-																<option>Tennessee Titans</option>
-
-															</optgroup>
-
-															<optgroup label="AFC WEST">
-
-																<option>Denver Broncos</option>
-
-																<option>Kansas City Chiefs</option>
-
-																<option>Oakland Raiders</option>
-
-																<option>San Diego Chargers</option>
-
-															</optgroup>
-
+															<option value="2">性能设置</option>
 														</select>
 
 													</div>
 
 												</div>
 
-												<div class="control-group">
-
-													<label class="control-label">Loading Data</label>
-
-													<div class="controls">
-
-														<input type="hidden" class="span12 select2_sample2">
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label">Tags Support List</label>
-
-													<div class="controls">
-
-														<input type="hidden" class="span12 select2_sample3" value="red, blue">
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >Membership</label>
-
-													<div class="controls">                                                
-
-														<label class="radio">
-
-														<input type="radio" name="optionsRadios2" value="option1" />
-
-														Free
-
-														</label>
-
-														<label class="radio">
-
-														<input type="radio" name="optionsRadios2" value="option2" checked />
-
-														Professional
-
-														</label>  
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >Street</label>
-
-													<div class="controls">
-
-														<input type="text" class="m-wrap span12" >
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >City</label>
-
-													<div class="controls">
-
-														<input type="text"  class="m-wrap span12"> 
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >State</label>
-
-													<div class="controls">
-
-														<input type="text"  class="m-wrap span12"> 
-
-													</div>
-
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label" >Post Code</label>
-
-													<div class="controls">
-
-														<input type="text" class="m-wrap span12"> 
-
-													</div>
-
-												</div>
-
-												<div class="control-group last">
-
-													<label class="control-label" >Country</label>
-
-													<div class="controls">
-
-														<select  class="m-wrap span12"></select>
-
-													</div>
-
-												</div>
 
 												<div class="form-actions">
 
@@ -1968,6 +1818,7 @@
 									</div>
 
 								</div>
+
 							</div>
 
 						</div>

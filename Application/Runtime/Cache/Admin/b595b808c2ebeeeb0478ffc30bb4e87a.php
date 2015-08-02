@@ -785,9 +785,7 @@
 
 						<li >
 
-							<a href="form_layout.html">
-
-							Form Layouts</a>
+							<a href="form_layout.html">订单列表</a>
 
 						</li>
 
@@ -1027,78 +1025,6 @@
 
 				<li>
 
-					<a class="active" href="javascript:;">
-
-					<i class="icon-sitemap"></i> 
-
-					<span class="title">3 Level Menu</span>
-
-					<span class="arrow "></span>
-
-					</a>
-
-					<ul class="sub-menu">
-
-						<li>
-
-							<a href="javascript:;">
-
-							Item 1
-
-							<span class="arrow"></span>
-
-							</a>
-
-							<ul class="sub-menu">
-
-								<li><a href="#">Sample Link 1</a></li>
-
-								<li><a href="#">Sample Link 2</a></li>
-
-								<li><a href="#">Sample Link 3</a></li>
-
-							</ul>
-
-						</li>
-
-						<li>
-
-							<a href="javascript:;">
-
-							Item 1
-
-							<span class="arrow"></span>
-
-							</a>
-
-							<ul class="sub-menu">
-
-								<li><a href="#">Sample Link 1</a></li>
-
-								<li><a href="#">Sample Link 1</a></li>
-
-								<li><a href="#">Sample Link 1</a></li>
-
-							</ul>
-
-						</li>
-
-						<li>
-
-							<a href="#">
-
-							Item 3
-
-							</a>
-
-						</li>
-
-					</ul>
-
-				</li>
-
-				<li>
-
 					<a href="javascript:;">
 
 					<i class="icon-folder-open"></i> 
@@ -1115,10 +1041,7 @@
 
 							<a href="javascript:;">
 
-							<i class="icon-cogs"></i> 
-
-							Item 1
-
+							<i class="icon-cogs"></i> 课程列表
 							<span class="arrow"></span>
 
 							</a>
@@ -1205,7 +1128,7 @@
 
 					<i class="icon-user"></i> 
 
-					<span class="title">Login Options</span>
+					<span class="title">友情链接</span>
 
 					<span class="arrow "></span>
 
@@ -1239,7 +1162,7 @@
 
 					<i class="icon-th"></i> 
 
-					<span class="title">Data Tables</span>
+					<span class="title">讲师管理</span>
 
 					<span class="arrow "></span>
 
@@ -1297,7 +1220,7 @@
 
 					<i class="icon-file-text"></i> 
 
-					<span class="title">Portlets</span>
+					<span class="title">课程分类</span>
 
 					<span class="arrow "></span>
 
@@ -1331,7 +1254,7 @@
 
 					<i class="icon-map-marker"></i> 
 
-					<span class="title">Maps</span>
+					<span class="title">广告管理</span>
 
 					<span class="arrow "></span>
 
