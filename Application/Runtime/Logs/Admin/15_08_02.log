@@ -1,0 +1,597 @@
+[ 2015-08-02T22:34:54+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/setting/form_layout.html
+ERR: 非法操作:form_layout
+
+[ 2015-08-02T22:52:47+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/setting/extra_profile.html
+ERR: 非法操作:extra_profile
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:08+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:28+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:28+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:30+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:31+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:31+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:52+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:56:52+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:04+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:05+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:05+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:41+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:42+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:57:42+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/bootstrap.min.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/bootstrap-responsive.min.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/style-responsive.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/uniform.default.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/default.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/font-awesome.min.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/DT_bootstrap.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/select2_metro.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/style-metro.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/css/style.css
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:57+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:58+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:58:58+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:14+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:15+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:15+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T22:59:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/app.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:50+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/table-advanced.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:02:51+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:26+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:04:27+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:10+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:11+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:11+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:08:59+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-1.10.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-migrate-1.2.1.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/bootstrap.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery-ui-1.10.1.custom.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.slimscroll.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.blockui.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/select2.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.dataTables.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:18+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/DT_bootstrap.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:19+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.cookie.min.js
+ERR: 非法操作:media
+
+[ 2015-08-02T23:10:19+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Admin/course/media/js/jquery.uniform.min.js
+ERR: 非法操作:media
+

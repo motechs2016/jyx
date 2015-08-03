@@ -81,7 +81,7 @@ var TableEditable = function () {
             $('#sample_editable_1_new').click(function (e) {
                 e.preventDefault();
                 var aiNew = oTable.fnAddData(['', '', '', '',
-                        '<a class="edit" href="">Edit</a>', '<a class="cancel" data-mode="new" href="">Cancel</a>'
+                        '<a class="edit" href="http://www.baidu.com">Edit</a>', '<a class="cancel" data-mode="new" href="">Cancel</a>'
                 ]);
                 var nRow = oTable.fnGetNodes(aiNew[0]);
                 editRow(oTable, nRow);

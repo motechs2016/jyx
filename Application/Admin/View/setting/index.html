@@ -250,24 +250,30 @@
 
 															<div class="controls">
 															<!-- 判断表单输出类型  -->
-															{$vvo['vartype']}
-															<if condition="($vvo['vartype'] eq '0')">
+															
+															<switch name="vvo['vartype']">
+															<case value="0">
 																<input value="{$vvo['varvalue']}" name="{$vvo['varname']}" type="text" placeholder="small" class="m-wrap span12" />
 
 																<span class="help-inline">${$vvo['varname']}</span>
-															<elseif condition="($vvo['vartype'] eq '1')">
-															<label class="radio">
-
-															<input type="radio" name="vartype" value="0" />
-															启用
-															</label>
-															<label class="radio">
-															<input type="radio" name="vartype" value="1" checked />
-															关闭
-															</label> 
-															<else />
-															dsfa
-															</if>
+															</case>
+															<case value="1">
+																<label class="radio">
+																<input type="radio" name="vartype" value="0" {$vvo['varvalue']?'checked':''} />
+																启用
+																</label>
+																<label class="radio">
+																<input type="radio" name="vartype" value="1" {$vvo['varvalue']?'':'checked'} />
+																关闭
+																</label><br>
+																<span class="help-inline">${$vvo['varname']}</span>
+															</case>
+															<case value="2">
+																<textarea class="span6 m-wrap" rows="3"></textarea>
+																<br>
+																<span class="help-inline">${$vvo['varname']}</span>
+															</case>
+															</switch>
 														</div>
 														</div>
 											</foreach>
@@ -401,7 +407,7 @@
 														<label class="control-label">变量名称</label>
 														<div class="controls">
 															<input value="" name="varname" type="text" placeholder="varname" class="m-wrap span12" />
-															<span class="help-inline"></span>
+															<span class="help-inline">系统会自动加 $_cfg</span>
 														</div>
 													</div>
 													<div class="control-group">
@@ -428,17 +434,13 @@
 
 														<input type="radio" name="vartype" value="0" />
 														文本
-														</label>
+														</label> 
 														<label class="radio">
-														<input type="radio" name="vartype" value="1" checked />
-														数字
-														</label>  
-														<label class="radio">
-														<input type="radio" name="vartype" value="2" />
+														<input type="radio" name="vartype" value="1" />
 														布尔(Y/N)
 														</label>
 														<label class="radio">
-														<input type="radio" name="vartype" value="3" />
+														<input type="radio" name="vartype" value="2" />
 														多行文本
 														</label>  
 													</div>

@@ -7,11 +7,8 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 
 <!-- BEGIN HEAD -->
+
 <head>
-
-	<meta charset="utf-8" />
-
-	<title>就要学 | 在线教育平台管理</title>
 
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -39,21 +36,15 @@
 
 	<!-- END GLOBAL MANDATORY STYLES -->
 
-	<!-- BEGIN PAGE LEVEL STYLES --> 
+	<!-- BEGIN PAGE LEVEL STYLES -->
 
-	<link href="/xdl_jyx/Public/Admin/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="/xdl_jyx/Public/Admin/css/select2_metro.css" />
 
-	<link href="/xdl_jyx/Public/Admin/css/daterangepicker.css" rel="stylesheet" type="text/css" />
-
-	<link href="/xdl_jyx/Public/Admin/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
-
-	<link href="/xdl_jyx/Public/Admin/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
-
-	<link href="/xdl_jyx/Public/Admin/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/xdl_jyx/Public/Admin/css/DT_bootstrap.css" />
 
 	<!-- END PAGE LEVEL STYLES -->
 
-	<link rel="shortcut icon" href="/xdl_jyx/Public/Admin/images/favicon.ico" />
+	<link rel="shortcut icon" href="media/image/favicon.ico" />
 
 </head>
 
@@ -64,8 +55,18 @@
 <body class="page-header-fixed">
 
 	<!-- BEGIN HEADER -->
+		<head>
+	<meta charset="utf-8" />
 
-		<div class="header navbar navbar-inverse navbar-fixed-top">
+	<title>就要学 | 在线教育平台管理</title>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+	<meta content="" name="description" />
+
+	<meta content="" name="author" />
+	</head>
+	<div class="header navbar navbar-inverse navbar-fixed-top">
 
 		<!-- BEGIN TOP NAVIGATION BAR -->
 
@@ -665,7 +666,6 @@
 		<!-- END TOP NAVIGATION BAR -->
 
 	</div>
-
 	<!-- END HEADER -->
 
 	<!-- BEGIN CONTAINER -->
@@ -1258,7 +1258,7 @@
 		</div>
 		<!-- END SIDEBAR -->
 
-		<!-- BEGIN PAGE -->  
+		<!-- BEGIN PAGE -->
 
 		<div class="page-content">
 
@@ -1284,11 +1284,11 @@
 
 			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 
-			<!-- BEGIN PAGE CONTAINER-->
+			<!-- BEGIN PAGE CONTAINER-->        
 
 			<div class="container-fluid">
 
-				<!-- BEGIN PAGE HEADER-->   
+				<!-- BEGIN PAGE HEADER-->
 
 				<div class="row-fluid">
 
@@ -1384,11 +1384,11 @@
 
 						<!-- END BEGIN STYLE CUSTOMIZER -->  
 
+						<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+
 						<h3 class="page-title">
 
-							网站信息管理
-
-							 <small>一个好的配置可以让系统运转更佳</small>
+							课程管理 <small>managed table samples</small>
 
 						</h3>
 
@@ -1400,21 +1400,23 @@
 
 								<a href="index.html">Home</a> 
 
-								<span class="icon-angle-right"></span>
+								<i class="icon-angle-right"></i>
 
 							</li>
 
 							<li>
 
-								<a href="#">Form Stuff</a>
+								<a href="#">Data Tables</a>
 
-								<span class="icon-angle-right"></span>
+								<i class="icon-angle-right"></i>
 
 							</li>
 
-							<li><a href="#">Form Layouts</a></li>
+							<li><a href="#">Managed Tables</a></li>
 
 						</ul>
+
+						<!-- END PAGE TITLE & BREADCRUMB-->
 
 					</div>
 
@@ -1428,284 +1430,116 @@
 
 					<div class="span12">
 
-						<div class="tabbable tabbable-custom boxless">
+						<!-- BEGIN EXAMPLE TABLE PORTLET-->
 
-							<ul class="nav nav-tabs">
+						<div class="portlet box light-grey">
 
-								<li class="active"><a href="#tab_1" data-toggle="tab">基础信息</a></li>
-								<li><a href="#tab_2" data-toggle="tab">附件设置</a></li>
-								<li><a href="#tab_3" data-toggle="tab">性能设置</a></li>
-								<li><a href="#tab_4" data-toggle="tab">水印设置</a></li>
-								<li><a href="#tab_5" data-toggle="tab">增加变量</a></li>
-							</ul>
+							<div class="portlet-title">
 
-							<div class="tab-content">
-								
-								<?php if(is_array($data)): foreach($data as $k=>$vo): if($vo["vargroup"] == 0): ?><div class="tab-pane <?php echo ($k == 1 ? 'active' : ''); ?>"  id="tab_<?php echo ($k); ?>">
+								<div class="caption"><i class="icon-globe"></i>课程管理</div>
 
-									<div class="portlet box blue">
+								<div class="tools">
 
-										<div class="portlet-title">
+									<a href="javascript:;" class="collapse"></a>
 
-											<div class="caption"><i class="icon-reorder"></i></div>
+									<a href="#portlet-config" data-toggle="modal" class="config"></a>
 
-											<div class="tools">
+									<a href="javascript:;" class="reload"></a>
 
-												<a href="javascript:;" class="collapse"></a>
-
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
-
-												<a href="javascript:;" class="reload"></a>
-
-												<a href="javascript:;" class="remove"></a>
-
-											</div>
-
-										</div>
-
-										<div class="portlet-body form">
-
-											<!-- BEGIN FORM-->
-
-											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
-											<?php if(is_array($vo)): foreach($vo as $key=>$vvo): ?><div class="control-group">
-
-															<label class="control-label"><?php echo ($vvo['varinfo']); ?></label>
-
-															<div class="controls">
-															<!-- 判断表单输出类型  -->
-															
-															<?php switch($vvo['vartype']): case "0": ?><input value="<?php echo ($vvo['varvalue']); ?>" name="<?php echo ($vvo['varname']); ?>" type="text" placeholder="small" class="m-wrap span12" />
-
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break;?>
-															<?php case "1": ?><label class="radio">
-																<input type="radio" name="vartype" value="0" <?php echo ($vvo['varvalue']?'checked':''); ?> />
-																启用
-																</label>
-																<label class="radio">
-																<input type="radio" name="vartype" value="1" <?php echo ($vvo['varvalue']?'':'checked'); ?> />
-																关闭
-																</label><br>
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break;?>
-															<?php case "2": ?><textarea class="span6 m-wrap" rows="3"></textarea>
-																<br>
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break; endswitch;?>
-														</div>
-														</div><?php endforeach; endif; ?>
-
-												<div class="form-actions">
-
-													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
-
-													<button type="button" class="btn">Cancel</button>
-
-												</div>
-
-											</form>
-
-											<!-- END FORM-->  
-
-										</div>
-
-									</div>
-									
-								</div><?php endif; endforeach; endif; ?>
-								<div class="tab-pane"  id="tab_4">
-
-									<div class="portlet box blue">
-
-										<div class="portlet-title">
-
-											<div class="caption"><i class="icon-reorder"></i></div>
-
-											<div class="tools">
-
-												<a href="javascript:;" class="collapse"></a>
-
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
-
-												<a href="javascript:;" class="reload"></a>
-
-												<a href="javascript:;" class="remove"></a>
-
-											</div>
-
-										</div>
-
-										<div class="portlet-body form">
-
-											<!-- BEGIN FORM-->
-
-											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
-												
-												
-												<div class="control-group">
-
-													<label class="control-label">是否开启水印</label>
-
-													<div class="controls">
-
-														<label class="radio">
-
-														<input type="radio" name="vartype" value="0" />
-														启用
-														</label>
-														<label class="radio">
-														<input type="radio" name="vartype" value="1" checked />
-														关闭
-														</label> 
-													</div>
-												</div>
-
-
-												<div class="control-group">
-														<label class="control-label">参数说明</label>
-														<div class="controls">
-															<span class="help-inline">宽</span>
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
-															<span class="help-inline">高</span>
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
-															
-														</div>
-												</div>
-
-												<div class="form-actions">
-
-													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
-
-													<button type="button" class="btn">Cancel</button>
-
-												</div>
-
-											</form>
-
-											<!-- END FORM-->  
-
-										</div>
-
-									</div>
-
-								</div>
-								<div class="tab-pane"  id="tab_5">
-
-									<div class="portlet box blue">
-
-										<div class="portlet-title">
-
-											<div class="caption"><i class="icon-reorder"></i></div>
-
-											<div class="tools">
-
-												<a href="javascript:;" class="collapse"></a>
-
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
-
-												<a href="javascript:;" class="reload"></a>
-
-												<a href="javascript:;" class="remove"></a>
-
-											</div>
-
-										</div>
-
-										<div class="portlet-body form">
-
-											<!-- BEGIN FORM-->
-
-											<form method="post" action="<?php echo U("setting/add");?>" class="form-horizontal form-row-seperated">
-												
-												
-													<div class="control-group">
-
-														<label class="control-label">变量名称</label>
-														<div class="controls">
-															<input value="" name="varname" type="text" placeholder="varname" class="m-wrap span12" />
-															<span class="help-inline">系统会自动加 $_cfg</span>
-														</div>
-													</div>
-													<div class="control-group">
-														<label class="control-label">参数说明</label>
-														<div class="controls">
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap span12" />
-															<span class="help-inline"></span>
-														</div>
-													</div>
-													<div class="control-group">
-														<label class="control-label">变量值</label>
-														<div class="controls">
-															<input value="" name="varvalue" type="text" placeholder="varvalue" class="m-wrap span12" />
-															<span class="help-inline"></span>
-														</div>
-													</div>
-													<div class="control-group">
-
-													<label class="control-label">变量类型</label>
-
-													<div class="controls">
-
-														<label class="radio">
-
-														<input type="radio" name="vartype" value="0" />
-														文本
-														</label> 
-														<label class="radio">
-														<input type="radio" name="vartype" value="1" />
-														布尔(Y/N)
-														</label>
-														<label class="radio">
-														<input type="radio" name="vartype" value="2" />
-														多行文本
-														</label>  
-													</div>
-												</div>
-
-												<div class="control-group">
-
-													<label class="control-label">所属组</label>
-
-													<div class="controls">
-
-														<select name="vargroup" class="small m-wrap" tabindex="1">
-
-															<option value="0">基本设置</option>
-
-															<option value="1">附件设置</option>
-
-															<option value="2">性能设置</option>
-														</select>
-
-													</div>
-
-												</div>
-
-
-												<div class="form-actions">
-
-													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
-
-													<button type="button" class="btn">Cancel</button>
-
-												</div>
-
-											</form>
-
-											<!-- END FORM-->  
-
-										</div>
-
-									</div>
+									<a href="javascript:;" class="remove"></a>
 
 								</div>
 
 							</div>
 
+							<div class="portlet-body">
+
+								<div class="clearfix">
+
+									<div class="btn-group">
+
+										<a href="<?php echo U("Course/add");?>"><button id="sample_editable_1_new" class="btn green">
+										添加课程
+										<i class="icon-plus"></i>
+										</button></a>
+
+									</div>
+
+									<div class="btn-group pull-right">
+
+										<button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="icon-angle-down"></i>
+
+										</button>
+
+										<ul class="dropdown-menu pull-right">
+
+											<li><a href="#">Print</a></li>
+
+											<li><a href="#">Save as PDF</a></li>
+
+											<li><a href="#">Export to Excel</a></li>
+
+										</ul>
+
+									</div>
+
+								</div>
+
+								<table class="table table-striped table-bordered table-hover" id="sample_1">
+
+									<thead>
+
+										<tr>
+
+											<th style="width:8px;"><input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" /></th>
+
+											<th>名称</th>
+
+											<th class="hidden-480">学员数</th>
+
+											<th class="hidden-480">创建者</th>
+
+											<th class="hidden-480">状态</th>
+
+											<th >操作</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+										<tr class="odd gradeX">
+										<?php if(is_array($data)): foreach($data as $key=>$vo): ?><td><input type="checkbox" class="checkboxes" value="1" /></td>
+
+											<td><?php echo ($vo["course_name"]); ?></td>
+
+											<td class="hidden-480"><?php echo ($vo["course_num"]); ?></td>
+
+											<td class="hidden-480"><?php echo ($vo["author"]); ?></td>
+
+											<td class="center hidden-480"><?php echo ($vo["status"]); ?></td>
+
+											<td ><span class="label label-success">Approved</span></td>
+
+										</tr><?php endforeach; endif; ?>
+									</tbody>
+
+								</table>
+
+							</div>
+
 						</div>
+
+						<!-- END EXAMPLE TABLE PORTLET-->
 
 					</div>
 
 				</div>
 
-				<!-- END PAGE CONTENT-->         
+	
+
+				<!-- END PAGE CONTENT-->
 
 			</div>
 
@@ -1713,7 +1547,7 @@
 
 		</div>
 
-		<!-- END PAGE -->  
+		<!-- END PAGE -->
 
 	</div>
 
@@ -1721,7 +1555,13 @@
 
 	<!-- BEGIN FOOTER -->
 
-	<div class="footer">
+		<div class="footer">
+
+		<div class="footer-inner">
+
+			2013 &copy; Metronic by keenthemes.Collect from <a href="#/#" title="" target="_blank">就要学-后台管理平台</a> - More Templates <a href="#/#" title="就要学-后台管理平台" target="_blank">就要学-后台管理平台</a>
+
+		</div>
 
 		<div class="footer-tools">
 
@@ -1740,7 +1580,8 @@
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 
 	<!-- BEGIN CORE PLUGINS -->
-			<script src="/xdl_jyx/Public/Admin/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+	<script src="/xdl_jyx/Public/Admin/js/jquery-1.10.1.min.js" type="text/javascript"></script>
 
 	<script src="/xdl_jyx/Public/Admin/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 
@@ -1770,78 +1611,31 @@
 
 	<!-- BEGIN PAGE LEVEL PLUGINS -->
 
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.js" type="text/javascript"></script>   
+	<script type="text/javascript" src="/xdl_jyx/Public/Admin/js/select2.min.js"></script>
 
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.russia.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/xdl_jyx/Public/Admin/js/jquery.dataTables.js"></script>
 
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.world.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.europe.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.germany.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.usa.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.sampledata.js" type="text/javascript"></script>  
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.flot.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.flot.resize.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.pulsate.min.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/date.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/daterangepicker.js" type="text/javascript"></script>     
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.gritter.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/fullcalendar.min.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.sparkline.min.js" type="text/javascript"></script>  
+	<script type="text/javascript" src="/xdl_jyx/Public/Admin/js/DT_bootstrap.js"></script>
 
 	<!-- END PAGE LEVEL PLUGINS -->
 
 	<!-- BEGIN PAGE LEVEL SCRIPTS -->
 
-	<script src="/xdl_jyx/Public/Admin/js/app.js" type="text/javascript"></script>
+	<script src="/xdl_jyx/Public/Admin/js/app.js"></script>
 
-	<script src="/xdl_jyx/Public/Admin/js/index.js" type="text/javascript"></script>        
-
-	<!-- END PAGE LEVEL SCRIPTS -->  
-	<!-- BEGING 自定义JS -->
-	<script src="/xdl_jyx/Public/Admin/js/common.js" type="text/javascript"></script>      
-	<!-- END 自定义JS -->
-
+	<script src="/xdl_jyx/Public/Admin/js/table-managed.js"></script>     
+	<script src="/xdl_jyx/Public/Admin/js/table-editable.js"></script>   
 	<script>
 
-		jQuery(document).ready(function() {    
+		jQuery(document).ready(function() {       
 
-		   App.init(); // initlayout and core plugins
+		   App.init();
 
-		   Index.init();
-
-		   Index.initJQVMAP(); // init index page's custom scripts
-
-		   Index.initCalendar(); // init index page's custom scripts
-
-		   Index.initCharts(); // init index page's custom scripts
-
-		   Index.initChat();
-
-		   Index.initMiniCharts();
-
-		   Index.initDashboardDaterange();
-
-		   Index.initIntro();
+		   TableManaged.init();
 
 		});
 
 	</script>
-
-	<!-- END JAVASCRIPTS -->   
 
 </body>
 

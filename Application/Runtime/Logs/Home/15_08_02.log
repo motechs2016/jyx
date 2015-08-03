@@ -52,3 +52,21 @@ ERR: 无法加载控制器:Js
 [ 2015-08-02T14:07:05+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/js/lrscroll.js
 ERR: 无法加载控制器:Js
 
+[ 2015-08-02T21:24:31+08:00 ] 127.0.0.1 /xdl_jyx/index.php/home/course1
+ERR: 无法加载控制器:Course1
+
+[ 2015-08-02T21:25:09+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Home/safd
+ERR: 无法加载控制器:Safd
+
+[ 2015-08-02T21:33:11+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Home/Ind2
+ERR: 无法加载控制器:Ind2
+
+[ 2015-08-02T21:37:19+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Home/Ind2
+ERR: 无法加载控制器:Ind2
+
+[ 2015-08-02T21:51:32+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Home/Inda
+ERR: 无法加载控制器:Inda
+
+[ 2015-08-02T21:54:29+08:00 ] 127.0.0.1 /xdl_jyx/index.php/Home/Inda
+ERR: 无法加载控制器:Inda
+

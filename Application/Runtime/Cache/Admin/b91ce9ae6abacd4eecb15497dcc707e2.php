@@ -7,12 +7,10 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 
 <!-- BEGIN HEAD -->
+
 <head>
 
 	<meta charset="utf-8" />
-
-	<title>就要学 | 在线教育平台管理</title>
-
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
 	<meta content="" name="description" />
@@ -39,21 +37,7 @@
 
 	<!-- END GLOBAL MANDATORY STYLES -->
 
-	<!-- BEGIN PAGE LEVEL STYLES --> 
-
-	<link href="/xdl_jyx/Public/Admin/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
-
-	<link href="/xdl_jyx/Public/Admin/css/daterangepicker.css" rel="stylesheet" type="text/css" />
-
-	<link href="/xdl_jyx/Public/Admin/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
-
-	<link href="/xdl_jyx/Public/Admin/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
-
-	<link href="/xdl_jyx/Public/Admin/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
-
-	<!-- END PAGE LEVEL STYLES -->
-
-	<link rel="shortcut icon" href="/xdl_jyx/Public/Admin/images/favicon.ico" />
+	<link rel="shortcut icon" href="media/image/favicon.ico" />
 
 </head>
 
@@ -65,7 +49,18 @@
 
 	<!-- BEGIN HEADER -->
 
-		<div class="header navbar navbar-inverse navbar-fixed-top">
+		<head>
+	<meta charset="utf-8" />
+
+	<title>就要学 | 在线教育平台管理</title>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+	<meta content="" name="description" />
+
+	<meta content="" name="author" />
+	</head>
+	<div class="header navbar navbar-inverse navbar-fixed-top">
 
 		<!-- BEGIN TOP NAVIGATION BAR -->
 
@@ -673,7 +668,8 @@
 	<div class="page-container row-fluid">
 
 		<!-- BEGIN SIDEBAR -->
-					<div class="page-sidebar nav-collapse collapse">
+
+				<div class="page-sidebar nav-collapse collapse">
 
 			<!-- BEGIN SIDEBAR MENU -->        
 
@@ -1256,6 +1252,7 @@
 			<!-- END SIDEBAR MENU -->
 
 		</div>
+
 		<!-- END SIDEBAR -->
 
 		<!-- BEGIN PAGE -->  
@@ -1386,9 +1383,9 @@
 
 						<h3 class="page-title">
 
-							网站信息管理
+							课程添加
 
-							 <small>一个好的配置可以让系统运转更佳</small>
+							 <small>form layouts and more</small>
 
 						</h3>
 
@@ -1428,250 +1425,113 @@
 
 					<div class="span12">
 
-						<div class="tabbable tabbable-custom boxless">
+						<!-- BEGIN SAMPLE FORM PORTLET-->   
 
-							<ul class="nav nav-tabs">
+						<div class="portlet box blue tabbable">
 
-								<li class="active"><a href="#tab_1" data-toggle="tab">基础信息</a></li>
-								<li><a href="#tab_2" data-toggle="tab">附件设置</a></li>
-								<li><a href="#tab_3" data-toggle="tab">性能设置</a></li>
-								<li><a href="#tab_4" data-toggle="tab">水印设置</a></li>
-								<li><a href="#tab_5" data-toggle="tab">增加变量</a></li>
-							</ul>
+							<div class="portlet-title">
 
-							<div class="tab-content">
-								
-								<?php if(is_array($data)): foreach($data as $k=>$vo): if($vo["vargroup"] == 0): ?><div class="tab-pane <?php echo ($k == 1 ? 'active' : ''); ?>"  id="tab_<?php echo ($k); ?>">
+								<div class="caption">
 
-									<div class="portlet box blue">
+									<i class="icon-reorder"></i>
 
-										<div class="portlet-title">
-
-											<div class="caption"><i class="icon-reorder"></i></div>
-
-											<div class="tools">
-
-												<a href="javascript:;" class="collapse"></a>
-
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
-
-												<a href="javascript:;" class="reload"></a>
-
-												<a href="javascript:;" class="remove"></a>
-
-											</div>
-
-										</div>
-
-										<div class="portlet-body form">
-
-											<!-- BEGIN FORM-->
-
-											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
-											<?php if(is_array($vo)): foreach($vo as $key=>$vvo): ?><div class="control-group">
-
-															<label class="control-label"><?php echo ($vvo['varinfo']); ?></label>
-
-															<div class="controls">
-															<!-- 判断表单输出类型  -->
-															
-															<?php switch($vvo['vartype']): case "0": ?><input value="<?php echo ($vvo['varvalue']); ?>" name="<?php echo ($vvo['varname']); ?>" type="text" placeholder="small" class="m-wrap span12" />
-
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break;?>
-															<?php case "1": ?><label class="radio">
-																<input type="radio" name="vartype" value="0" <?php echo ($vvo['varvalue']?'checked':''); ?> />
-																启用
-																</label>
-																<label class="radio">
-																<input type="radio" name="vartype" value="1" <?php echo ($vvo['varvalue']?'':'checked'); ?> />
-																关闭
-																</label><br>
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break;?>
-															<?php case "2": ?><textarea class="span6 m-wrap" rows="3"></textarea>
-																<br>
-																<span class="help-inline">$<?php echo ($vvo['varname']); ?></span><?php break; endswitch;?>
-														</div>
-														</div><?php endforeach; endif; ?>
-
-												<div class="form-actions">
-
-													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
-
-													<button type="button" class="btn">Cancel</button>
-
-												</div>
-
-											</form>
-
-											<!-- END FORM-->  
-
-										</div>
-
-									</div>
-									
-								</div><?php endif; endforeach; endif; ?>
-								<div class="tab-pane"  id="tab_4">
-
-									<div class="portlet box blue">
-
-										<div class="portlet-title">
-
-											<div class="caption"><i class="icon-reorder"></i></div>
-
-											<div class="tools">
-
-												<a href="javascript:;" class="collapse"></a>
-
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
-
-												<a href="javascript:;" class="reload"></a>
-
-												<a href="javascript:;" class="remove"></a>
-
-											</div>
-
-										</div>
-
-										<div class="portlet-body form">
-
-											<!-- BEGIN FORM-->
-
-											<form action="<?php echo U("setting/update");?>" class="form-horizontal form-row-seperated">
-												
-												
-												<div class="control-group">
-
-													<label class="control-label">是否开启水印</label>
-
-													<div class="controls">
-
-														<label class="radio">
-
-														<input type="radio" name="vartype" value="0" />
-														启用
-														</label>
-														<label class="radio">
-														<input type="radio" name="vartype" value="1" checked />
-														关闭
-														</label> 
-													</div>
-												</div>
-
-
-												<div class="control-group">
-														<label class="control-label">参数说明</label>
-														<div class="controls">
-															<span class="help-inline">宽</span>
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
-															<span class="help-inline">高</span>
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap small" />
-															
-														</div>
-												</div>
-
-												<div class="form-actions">
-
-													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
-
-													<button type="button" class="btn">Cancel</button>
-
-												</div>
-
-											</form>
-
-											<!-- END FORM-->  
-
-										</div>
-
-									</div>
+									<span class="hidden-480">General Layouts</span>
 
 								</div>
-								<div class="tab-pane"  id="tab_5">
 
-									<div class="portlet box blue">
+							</div>
 
-										<div class="portlet-title">
+							<div class="portlet-body form">
 
-											<div class="caption"><i class="icon-reorder"></i></div>
+								<div class="tabbable portlet-tabs">
 
-											<div class="tools">
+									<ul class="nav nav-tabs">
 
-												<a href="javascript:;" class="collapse"></a>
+										<li><a href="#portlet_tab3" data-toggle="tab">Inline</a></li>
 
-												<a href="#portlet-config" data-toggle="modal" class="config"></a>
+										<li><a href="#portlet_tab2" data-toggle="tab">Grid</a></li>
 
-												<a href="javascript:;" class="reload"></a>
+										<li class="active"><a href="#portlet_tab1" data-toggle="tab">Default</a></li>
 
-												<a href="javascript:;" class="remove"></a>
+									</ul>
 
-											</div>
+									<div class="tab-content">
 
-										</div>
-
-										<div class="portlet-body form">
+										<div class="tab-pane active" id="portlet_tab1">
 
 											<!-- BEGIN FORM-->
 
-											<form method="post" action="<?php echo U("setting/add");?>" class="form-horizontal form-row-seperated">
-												
-												
-													<div class="control-group">
+											<form action="#" class="form-horizontal">
+												<div class="control-group">
 
-														<label class="control-label">变量名称</label>
-														<div class="controls">
-															<input value="" name="varname" type="text" placeholder="varname" class="m-wrap span12" />
-															<span class="help-inline">系统会自动加 $_cfg</span>
-														</div>
-													</div>
-													<div class="control-group">
-														<label class="control-label">参数说明</label>
-														<div class="controls">
-															<input value="" name="varinfo" type="text" placeholder="varinfo" class="m-wrap span12" />
-															<span class="help-inline"></span>
-														</div>
-													</div>
-													<div class="control-group">
-														<label class="control-label">变量值</label>
-														<div class="controls">
-															<input value="" name="varvalue" type="text" placeholder="varvalue" class="m-wrap span12" />
-															<span class="help-inline"></span>
-														</div>
-													</div>
-													<div class="control-group">
-
-													<label class="control-label">变量类型</label>
+													<label class="control-label">课程名称</label>
 
 													<div class="controls">
 
-														<label class="radio">
+														<input type="text" placeholder="课程名称" class="m-wrap medium" />
 
-														<input type="radio" name="vartype" value="0" />
-														文本
-														</label> 
-														<label class="radio">
-														<input type="radio" name="vartype" value="1" />
-														布尔(Y/N)
-														</label>
-														<label class="radio">
-														<input type="radio" name="vartype" value="2" />
-														多行文本
-														</label>  
+														<span class="help-inline">Some hint here</span>
+
 													</div>
+
 												</div>
 
 												<div class="control-group">
 
-													<label class="control-label">所属组</label>
+													<label class="control-label">课程简介</label>
 
 													<div class="controls">
 
-														<select name="vargroup" class="small m-wrap" tabindex="1">
+														<textarea class="large m-wrap" rows="3"></textarea>
 
-															<option value="0">基本设置</option>
+													</div>
 
-															<option value="1">附件设置</option>
 
-															<option value="2">性能设置</option>
+												</div>
+
+												<div class="control-group">
+
+													<label class="control-label">课程图片</label>
+
+													<div class="controls">
+
+														<input type="file" placeholder="huge" class="large m-wrap" />
+
+														<span class="help-inline">Some hint here</span>
+
+													</div>
+
+												</div>
+
+												<div class="control-group">
+
+													<label class="control-label">课程定价</label>
+
+													<div class="controls">
+
+														<input type="text" placeholder="课程价格" class="m-wrap medium" />
+
+														<span class="help-inline">支持免费</span>
+
+													</div>
+
+												</div>
+												<div class="control-group">
+
+													<label class="control-label">讲师选择</label>
+
+													<div class="controls">
+
+														<select class="small m-wrap" tabindex="1">
+
+															<option value="Category 1">讲师一号</option>
+
+															<option value="Category 2">讲师二号</option>
+
+															<option value="Category 3">讲师三号</option>
+
+															<option value="Category 4">讲师四号</option>
+
 														</select>
 
 													</div>
@@ -1679,6 +1539,35 @@
 												</div>
 
 
+												<div class="control-group">
+
+													<label class="control-label">状态</label>
+
+													<div class="controls">
+
+														<label class="radio">
+
+														<input type="radio" name="optionsRadios1" value="option1" />
+
+														启用
+
+														</label>
+
+														<label class="radio">
+
+														<input type="radio" name="optionsRadios1" value="option2" checked />
+
+														关闭
+
+														</label> 
+
+													</div>
+
+												</div>
+
+												
+
+								
 												<div class="form-actions">
 
 													<button type="submit" class="btn blue"><i class="icon-ok"></i> Save</button>
@@ -1690,6 +1579,218 @@
 											</form>
 
 											<!-- END FORM-->  
+
+										</div>
+
+										<div class="tab-pane " id="portlet_tab2">
+
+											<form>
+
+												<div class="controls controls-row">
+
+													<input class="span12 m-wrap" type="text" placeholder=".span12" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span11 m-wrap" type="text" placeholder=".span11" />
+
+													<input class="span1 m-wrap" type="text" placeholder=".span1" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span10 m-wrap" type="text" placeholder=".span10" />
+
+													<input class="span2 m-wrap" type="text" placeholder=".span2" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span9 m-wrap" type="text" placeholder=".span9" />
+
+													<input class="span3 m-wrap" type="text" placeholder=".span3" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span8 m-wrap" type="text" placeholder=".span8" />
+
+													<input class="span4 m-wrap" type="text" placeholder=".span4" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span7 m-wrap" type="text" placeholder=".span7" />
+
+													<input class="span5 m-wrap" type="text" placeholder=".span5" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span6 m-wrap" type="text" placeholder=".span6" />
+
+													<input class="span6 m-wrap" type="text" placeholder=".span6" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span5 m-wrap" type="text" placeholder=".span5" />
+
+													<input class="span7 m-wrap" type="text" placeholder=".span7" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span4 m-wrap" type="text" placeholder=".span4" />
+
+													<input class="span8 m-wrap" type="text" placeholder=".span8" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span3 m-wrap" type="text" placeholder=".span3" />
+
+													<input class="span9 m-wrap" type="text" placeholder=".span9" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span2 m-wrap" type="text" placeholder=".span2" />
+
+													<input class="span10 m-wrap" type="text" placeholder=".span10" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span1 m-wrap" type="text" placeholder=".span1" />
+
+													<input class="span11 m-wrap" type="text" placeholder=".span11" />
+
+												</div>
+
+												<div class="controls controls-row">
+
+													<input class="span2 m-wrap" type="text" placeholder=".span2" />
+
+													<input class="span3 m-wrap" type="text" placeholder=".span3" />
+
+													<input class="span4 m-wrap" type="text" placeholder=".span4" />
+
+													<input class="span2 m-wrap" type="text" placeholder=".span2" />
+
+													<input class="span1 m-wrap" type="text" placeholder=".span1" />
+
+												</div>
+
+											</form>
+
+										</div>
+
+										<div class="tab-pane " id="portlet_tab3">
+
+											<h4>Login Form</h4>
+
+											<form action="#">
+
+												<input type="text" class="m-wrap" placeholder="Email" /><br />
+
+												<input type="password" class="m-wrap" placeholder="Password" />
+
+												<label class="checkbox">
+
+												<input type="checkbox" /> Remember me
+
+												</label>
+
+												<button type="submit" class="btn green">Sign in</button>
+
+											</form>
+
+											<hr />
+
+											<h4>Login Form</h4>
+
+											<form action="#">
+
+												<div class="input-icon left">
+
+													<i class="icon-envelope"></i>
+
+													<input type="text" class="m-wrap" placeholder="Email" />
+
+												</div>
+
+												<div class="input-icon left">                                          
+
+													<i class="icon-lock"></i>
+
+													<input type="password" class="m-wrap" placeholder="Password" />
+
+												</div>
+
+												<label class="checkbox">
+
+												<input type="checkbox" /> Remember me
+
+												</label>
+
+												<button type="submit" class="btn purple">Sign in</button>
+
+											</form>
+
+											<hr />
+
+											<form action="#">
+
+												<div class="input-prepend">                
+
+													<button class="btn blue">Login</button><input class="m-wrap" size="16" type="password" placeholder="Your Password" />
+
+												</div>
+
+											</form>
+
+											<h4>Search Form</h4>
+
+											<form action="#">
+
+												<div class="input-append hidden-phone">  
+
+													<input class="m-wrap medium" size="10" type="text" placeholder="Twitter Username" /><button class="btn red">Search</button><button class="btn black">Back</button>
+
+												</div>
+
+												<div class="input-append visible-phone">  
+
+													<input class="m-wrap" size="10" type="text" placeholder="Twitter Username" /><button class="btn red">Search</button><button class="btn black">Back</button>
+
+												</div>
+
+											</form>
+
+											<hr />
+
+											<form action="#" class="form-search">
+
+												<div class="input-append">
+
+													<input class="m-wrap" type="text" /><button class="btn green" type="button">Search!</button>
+
+												</div>
+
+											</form>
 
 										</div>
 
@@ -1700,6 +1801,8 @@
 							</div>
 
 						</div>
+
+						<!-- END SAMPLE FORM PORTLET-->
 
 					</div>
 
@@ -1721,7 +1824,13 @@
 
 	<!-- BEGIN FOOTER -->
 
-	<div class="footer">
+		<div class="footer">
+
+		<div class="footer-inner">
+
+			2013 &copy; Metronic by keenthemes.Collect from <a href="#/#" title="" target="_blank">就要学-后台管理平台</a> - More Templates <a href="#/#" title="就要学-后台管理平台" target="_blank">就要学-后台管理平台</a>
+
+		</div>
 
 		<div class="footer-tools">
 
@@ -1740,7 +1849,8 @@
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 
 	<!-- BEGIN CORE PLUGINS -->
-			<script src="/xdl_jyx/Public/Admin/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+	<script src="/xdl_jyx/Public/Admin/js/jquery-1.10.1.min.js" type="text/javascript"></script>
 
 	<script src="/xdl_jyx/Public/Admin/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 
@@ -1768,74 +1878,15 @@
 
 	<!-- END CORE PLUGINS -->
 
-	<!-- BEGIN PAGE LEVEL PLUGINS -->
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.js" type="text/javascript"></script>   
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.russia.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.world.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.europe.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.germany.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.usa.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.vmap.sampledata.js" type="text/javascript"></script>  
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.flot.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.flot.resize.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.pulsate.min.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/date.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/daterangepicker.js" type="text/javascript"></script>     
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.gritter.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/fullcalendar.min.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/jquery.sparkline.min.js" type="text/javascript"></script>  
-
-	<!-- END PAGE LEVEL PLUGINS -->
-
-	<!-- BEGIN PAGE LEVEL SCRIPTS -->
-
-	<script src="/xdl_jyx/Public/Admin/js/app.js" type="text/javascript"></script>
-
-	<script src="/xdl_jyx/Public/Admin/js/index.js" type="text/javascript"></script>        
-
-	<!-- END PAGE LEVEL SCRIPTS -->  
-	<!-- BEGING 自定义JS -->
-	<script src="/xdl_jyx/Public/Admin/js/common.js" type="text/javascript"></script>      
-	<!-- END 自定义JS -->
+	<script src="/xdl_jyx/Public/Admin/js/app.js"></script>     
 
 	<script>
 
-		jQuery(document).ready(function() {    
+		jQuery(document).ready(function() {   
 
-		   App.init(); // initlayout and core plugins
+		   // initiate layout and plugins
 
-		   Index.init();
-
-		   Index.initJQVMAP(); // init index page's custom scripts
-
-		   Index.initCalendar(); // init index page's custom scripts
-
-		   Index.initCharts(); // init index page's custom scripts
-
-		   Index.initChat();
-
-		   Index.initMiniCharts();
-
-		   Index.initDashboardDaterange();
-
-		   Index.initIntro();
+		   App.init();
 
 		});
 

@@ -66,7 +66,18 @@
 
 	<!-- BEGIN HEADER -->
 		<!-- 头部-->
-			<div class="header navbar navbar-inverse navbar-fixed-top">
+			<head>
+	<meta charset="utf-8" />
+
+	<title>就要学 | 在线教育平台管理</title>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+	<meta content="" name="description" />
+
+	<meta content="" name="author" />
+	</head>
+	<div class="header navbar navbar-inverse navbar-fixed-top">
 
 		<!-- BEGIN TOP NAVIGATION BAR -->
 
@@ -1037,49 +1048,8 @@
 
 					<ul class="sub-menu">
 
-						<li>
-
-							<a href="javascript:;">
-
-							<i class="icon-cogs"></i> 课程列表
-							<span class="arrow"></span>
-
-							</a>
-
-							<ul class="sub-menu">
-
-								<li>
-
-									<a href="javascript:;">
-
-									<i class="icon-user"></i>
-
-									Sample Link 1
-
-									<span class="arrow"></span>
-
-									</a>
-
-									<ul class="sub-menu">
-
-										<li><a href="#"><i class="icon-remove"></i> Sample Link 1</a></li>
-
-										<li><a href="#"><i class="icon-pencil"></i> Sample Link 1</a></li>
-
-										<li><a href="#"><i class="icon-edit"></i> Sample Link 1</a></li>
-
-									</ul>
-
-								</li>
-
-								<li><a href="#"><i class="icon-user"></i>  Sample Link 1</a></li>
-
-								<li><a href="#"><i class="icon-external-link"></i>  Sample Link 2</a></li>
-
-								<li><a href="#"><i class="icon-bell"></i>  Sample Link 3</a></li>
-
-							</ul>
-
+						<li >
+							<a href="/xdl_jyx/index.php/Admin/course/index">课程列表</a>
 						</li>
 
 						<li>

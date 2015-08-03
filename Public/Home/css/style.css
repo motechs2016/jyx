@@ -14,7 +14,7 @@
 .banner{
 	width: 100%;
 	height: 599px;
-	background: url(../images/banner.jpg);
+	background: url(../img/banner.jpg);
 	background-size: cover;
 }
 .main_A{
@@ -107,7 +107,7 @@
     float: right;
 }
 .sousuo {
-    background: url("../images/input.png") no-repeat scroll 0% 0% transparent;
+    background: url("../img/input.png") no-repeat scroll 0% 0% transparent;
     width: 182px;
     height: 33px;
     line-height: 33px;
@@ -125,7 +125,7 @@
     z-index: 99;
 }
 .input_img {
-    background: url("../images/j.png") no-repeat scroll 0% 0% transparent;
+    background: url("../img/j.png") no-repeat scroll 0% 0% transparent;
     width: 20px;
     height: 24px;
     border: 0px none;
@@ -168,7 +168,7 @@
 .php_header h3{
 	font-size: 26px;
 	font-family: '宋体';
-}.php_header images{
+}.php_header img{
    margin-top: 20px;
 }
 .php_footer{
@@ -193,7 +193,7 @@
     text-decoration: none;
 }
 .main_Twoauto{
-	background: url(../images/main_1.png);
+	background: url(../img/main_1.png);
 	margin: 0px auto;
 	width: 1400px;
 	height: 418px;
@@ -201,7 +201,7 @@
 .main_Threeauto{
 	width: 1400px;
 	height: 471px;
-	background: url(../images/main_2.jpg);
+	background: url(../img/main_2.jpg);
 	margin: 0px auto;
 }
 .main_Fauto{
@@ -263,16 +263,16 @@
 .Fbauto_p{
 	width: 162px;
 	height: 51px;
-	background: url(../images/more1.png);
+	background: url(../img/more1.png);
 	margin: 0px auto;
 }
 .Fbauto_p:hover{
-	background: url(../images/more.png);
+	background: url(../img/more.png);
 }
-.main_Fiveimg {
+.main_Fiveimg{
 	width: 1400px;
 	height: 446px;
-	background: url(../images/main_Five.jpg);
+	background: url(../img/main_Five.jpg);
 }
 .Five_auto{
 	width: 1184px;
