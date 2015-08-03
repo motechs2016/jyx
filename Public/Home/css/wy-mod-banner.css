@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* wy-mod-banner */
+.wy-mod-banner{background:#fff;height:599px;position:relative;overflow:hidden;}
+.wy-mod-banner .banners{width:1600px;height:599px;overflow:hidden;position:absolute;left:50%;margin-left:-800px;}
+.wy-mod-banner .banner{width:1600px;height: 599px;overflow:hidden;position:absolute;left:50%;margin-left:-800px;}
+.wy-mod-banner .banner .info{width:565px;height:230px;position:absolute;right:50%;margin-right:-280px;background:url(./img/txt1.png) no-repeat;  top: 120px;}
+.wy-mod-banner .banner2 .info{background-image:url(./img/txt2.png);}
+.wy-mod-banner .banner3 .info{background-image:url(./img/txt3.png);}
+.wy-mod-banner .banner4 .info{background-image:url(./img/txt4.png);}
+.wy-mod-banner .info .link-download{  width: 201px;
+  height: 50px;	overflow:hidden;position:absolute;bottom:-120px;  right: 170px;cursor:pointer;text-decoration:none;
+display:block;
+background:url(./img/banner_a.png);
+}
+.wy-mod-banner .info .link-download span{position:absolute;display:block;left: 50px;cursor:pointer;font-size: 20px;line-height:50px;color:white;font-weight:500; font-family:"Î¢ÈíÑÅºÚ"}
+.wy-mod-banner .banner1 .info .link-download span,
+.wy-mod-banner .banner2 .info .link-download span {color:#3091f2;}
+.wy-mod-banner .info .link-download .bor_c{position:absolute;width:14px;height:26px;right:0px;top:14px;b_background-image:url(./img/ico_bule.png); }
+.wy-mod-banner .banner3 .info .link-download .bor_c,
+.wy-mod-banner .banner4 .info .link-download .bor_c{_background-image:url(img/ico_white.png);}
+
+.wy-mod-banner .banner .info h3{display:none;}
+.wy-mod-banner .banner .info p{display:none;}
+.wy-mod-banner .focus{width:960px;margin:0px auto;  padding-top: 540px;text-align:center;}
+.wy-mod-banner .focus a{text-decoration:none;z-index:3;width:24px;height:74px;position:relative;display:inline-block;*display:inline;overflow:hidden;margin:0px 3px;zoom:1;}
+.wy-mod-banner .focus a .bg-m{z-index:4;color:white;line-height:40px;font-size:40px;position:absolute;display:block;left:2px;top:6px;cursor:pointer; display:none;}
+.wy-mod-banner .focus a .bg-b{background-image:url(./img/i_dot.32.png);position:absolute;display:block;left:0px;top:0px;cursor:pointer; width:18px; height:18px;}
+.wy-mod-banner .focus a .inner{background-image:url(./img/i_dot_hover.32.png);position:absolute;left:0px;top:0px;z-index:9;opacity:0;display:none\0;+display:none;*display:none; width:18px;height:18px;}
+.wy-mod-banner .focus a.on .inner,.wy-mod-banner .focus a:hover .inner{cursor:pointer;display:block;border:0;-webkit-transition:opacity .3s ease-in-out;-ms-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;opacity:1;}
+.wy-mod-banner .focus .hover .inner{display:block;}

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿	<link rel="stylesheet" type="text/css" href="/xdl_jyx/Public/Home/css/style.css">
+<?php if (!defined('THINK_PATH')) exit();?>	<link rel="stylesheet" type="text/css" href="/jyx/trunk/Public/Home/css/style.css">
 	  <!--外层百分比div-->
 	   <div class="header">
 	   	  <!--header头内容展示区-->
@@ -6,7 +6,7 @@
 
 	   	  	 <!--LOGO-->
              <div class="header_logo">
-             	<img src="/xdl_jyx/Public/Home/images/logo.png"></img>
+             	<img src="/jyx/trunk/Public/Home/images/logo.png"></img>
              </div>
              <!--LOGO区结束-->
 
@@ -53,9 +53,9 @@
 	  <!--外层百分比div结束-->
 
 	<!--header结束-->
-<link rel="stylesheet" href="/xdl_jyx/Public/Home/css/show.css" type="text/css">
-<script src="/xdl_jyx/Public/Home/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="/xdl_jyx/Public/Home/js/show.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="/jyx/trunk/Public/Home/css/show.css" type="text/css">
+<script src="/jyx/trunk/Public/Home/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="/jyx/trunk/Public/Home/js/show.js" type="text/javascript" charset="utf-8"></script>
 <title>视频播放页-就要学</title>
 		<div id="jw-main">
 			<div class="content">
@@ -71,7 +71,7 @@
 				<!-- 课程开始学习  开始 -->
 				<div class="jw-course-study">
 					<a href="#/#">
-						<img width="280" height="160" class="img" alt="img" src="/xdl_jyx/Public/Home/images/study.jpg">
+						<img width="280" height="160" class="img" alt="img" src="/jyx/trunk/Public/Home/images/study.jpg">
 					</a>
 					<ul class="info">
 						<li>
@@ -137,7 +137,7 @@
 							<dt>授课老师</dt>
 							<dd>
 								<div class="jw-course-teacher">
-									<a href=""><img class="teacer-pic" alt="img" src="/xdl_jyx/Public/Home/images/teacher.jpg"></a>
+									<a href=""><img class="teacer-pic" alt="img" src="/jyx/trunk/Public/Home/images/teacher.jpg"></a>
 									<h3>李宁</h3>
 									<p>移动开发工程师</p>
 									<div class="clear"></div>
@@ -154,12 +154,12 @@
 							<dd>
 								<ul class="users">
 									<li>
-										<a href=""><img class="img" alt="img" src="/xdl_jyx/Public/Home/images/xues.jpg"></a>
+										<a href=""><img class="img" alt="img" src="/jyx/trunk/Public/Home/images/xues.jpg"></a>
 										<h3>Lemuel</h3>
 										<em>UI设计师</em>
 									</li>
 									<li>
-										<a href=""><img class="img" alt="img" src="/xdl_jyx/Public/Home/images/xues.jpg"></a>
+										<a href=""><img class="img" alt="img" src="/jyx/trunk/Public/Home/images/xues.jpg"></a>
 										<h3>Lemuel</h3>
 										<em>UI设计师</em>
 									</li>
@@ -176,8 +176,9 @@
 			<div class="clear"></div>
 		</div>
 ﻿<!--友情链接jq-->
-	<SCRIPT type=text/javascript src="/xdl_jyx/Public/Home/js/jquery.js"></SCRIPT>
-	<SCRIPT type=text/javascript charset=utf-8 src="/xdl_jyx/Public/Home/js/lrscroll.js"></SCRIPT>
+	<SCRIPT type=text/javascript src="/jyx/trunk/Public/Home/js/jquery.js"></SCRIPT>
+	<SCRIPT type=text/javascript charset=utf-8 src="/jyx/trunk/Public/Home/js/lrscroll.js"></SCRIPT>
+	<LINK rel=stylesheet type=text/css href="/jyx/trunk/Public/Home/css/lrtk.css">
 <!--友情链接jq结束-->
 	<!--footer页脚开始-->
 	    <!--页脚友情链接-->
@@ -191,27 +192,27 @@
 				<UL class=featureUL>
 
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt=Paracletos  src="/xdl_jyx/Public/Home/images/01.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt=Paracletos  src="/jyx/trunk/Public/Home/images/01.png" width=197 height=33> </A></DIV>
 				  <!-- /box --></LI>
 				  
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt="Natural Touch Soap" src="/xdl_jyx/Public/Home/images/02.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt="Natural Touch Soap" src="/jyx/trunk/Public/Home/images/02.png" width=197 height=33> </A></DIV>
 				  <!-- /box --></LI>
 				  
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt="LRTK" src="/xdl_jyx/Public/Home/images/03.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt="LRTK" src="/jyx/trunk/Public/Home/images/03.png" width=197 height=33> </A></DIV>
 				  <!-- /box --></LI>
 				  
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt="Natalie Reid" src="/xdl_jyx/Public/Home/images/04.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt="Natalie Reid" src="/jyx/trunk/Public/Home/images/04.png" width=197 height=33> </A></DIV>
 				  <!-- /box --></LI>
 				  
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt="xixi" src="/xdl_jyx/Public/Home/images/05.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt="xixi" src="/jyx/trunk/Public/Home/images/05.png" width=197 height=33> </A></DIV>
 				  <!-- /box --></LI>
 				  
 				  <LI class=featureBox>
-				  <DIV class=box><A href="#" target="_blank"><IMG alt="Catherine Sherwood" src="/xdl_jyx/Public/Home/images/06.png" width=197 height=33> </A></DIV>
+				  <DIV class=box><A href="#" target="_blank"><IMG alt="Catherine Sherwood" src="/jyx/trunk/Public/Home/images/06.png" width=197 height=33> </A></DIV>
 				  <!-- /box -->
 				  </LI>
 				  
@@ -243,12 +244,12 @@
 	          </div>
 	          <div class="footer_tright">
 	          	<ul>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_a.png"></a></li>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_b.png"></a></li>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_c.png"></a></li>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_d.png"></a></li>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_e.png"></a></li>
-	          		<li><a href="#"><img src="/xdl_jyx/Public/Home/images/f_f.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_a.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_b.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_c.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_d.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_e.png"></a></li>
+	          		<li><a href="#"><img src="/jyx/trunk/Public/Home/images/f_f.png"></a></li>
 	          	</ul>
 	          </div>
           </div>

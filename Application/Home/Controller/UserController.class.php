@@ -1,9 +1,11 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class UserController extends Controller {
+ 
+    //登录
     public function index(){
-	echo '11';
-       $this->display();
+       
+       $this->display('login');
     }
 }
